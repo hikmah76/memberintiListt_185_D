@@ -36,5 +36,9 @@ public:
 	void cetakPasien();
 };
 void pasien::cetakDokter() {
-
+	cout << "Daftar Dokter yang mempunyai pasien \"" << this->nama << "\":\n";
+	for (auto& a : daftar_dokter) {
+		cout << a->nama << "\n";
+	}
+	cout << endl;
 }
