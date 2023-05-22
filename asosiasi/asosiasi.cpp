@@ -34,5 +34,7 @@ public:
 
 	void tambahPasien(pasien*);
 	void cetakPasien();
-
 };
+void pasien::cetakDokter() {
+
+}
